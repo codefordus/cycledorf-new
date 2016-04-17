@@ -19,12 +19,45 @@
     <link rel="stylesheet" href="lib/angular/angular-csp.css" />
 
 
-    <!-- --------------- App init --------------- -->
+    <!-- App Init -->
 
     <title>Onsen UI Sliding Menu</title>
 
     <script>
-        angular.module('app', ['onsen']);
+        app = angular.module('app', ['onsen']);
+
+        app.controller("startHtml", function ($scope) {
+            $scope.startStopText = "Starte Tracking!";
+
+            $scope.startStopLogging = function () {
+                if (geo()) {
+                    $scope.startStopText = "Stoppe Tracking!";
+                } else {
+                    $scope.startStopText = "Starte Tracking!";
+                }
+                //geo();
+            };
+        });
+
+        app.controller("statsHtml", function ($scope) {
+
+        });
+
+        app.controller("loginHtml", function ($scope) {
+
+        });
+
+        app.controller("settingsHtml", function ($scope) {
+
+        });
+
+        app.controller("helpHtml", function ($scope) {
+
+        });
+
+        app.controller("feedbackHtml", function ($scope) {
+
+        });
     </script>
 
     <style>
@@ -138,7 +171,7 @@
     </ons-template>
 
     <ons-template id="start.html">
-        <ons-page>
+        <ons-page ng-controller="startHtml">
             <ons-toolbar>
                 <div class="left">
                     <ons-toolbar-button ng-click="menu.toggle()">
@@ -150,8 +183,8 @@
 
             <ons-row style="margin-top: 100px; text-align: center;">
                 <ons-col>
-                    <ons-button modifier="light" id="tracking_start_stop">
-                        Starte Tracking!
+                    <ons-button modifier="light" id="tracking_start_stop" ng-click="startStopLogging()">
+                        {{startStopText}}
                     </ons-button>
                 </ons-col>
             </ons-row>
@@ -159,7 +192,7 @@
     </ons-template>
 
     <ons-template id="stats.html">
-        <ons-page>
+        <ons-page ng-controller="statsHtml">
             <ons-toolbar>
                 <div class="left">
                     <ons-toolbar-button ng-click="menu.toggle()">
@@ -180,7 +213,7 @@
     </ons-template>
 
     <ons-template id="settings.html">
-        <ons-page>
+        <ons-page ng-controller="settingsHtml">
             <ons-toolbar>
                 <div class="left">
                     <ons-toolbar-button ng-click="menu.toggle()">
@@ -201,7 +234,7 @@
     </ons-template>
 
     <ons-template id="help.html">
-        <ons-page>
+        <ons-page ng-controller="helpHtml">
             <ons-toolbar>
                 <div class="left">
                     <ons-toolbar-button ng-click="menu.toggle()">
@@ -222,7 +255,7 @@
     </ons-template>
 
     <ons-template id="feedback.html">
-        <ons-page>
+        <ons-page ng-controller="feedbackHtml">
             <ons-toolbar>
                 <div class="left">
                     <ons-toolbar-button ng-click="menu.toggle()">
@@ -243,7 +276,7 @@
     </ons-template>
 
     <ons-template id="login.html">
-        <ons-page>
+        <ons-page ng-controller="loginHtml">
             <ons-toolbar>
                 <div class="left">
                     <ons-toolbar-button ng-click="menu.toggle()">

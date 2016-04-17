@@ -60,7 +60,7 @@ function geo() {
         navigator.geolocation.clearWatch(current_track_watch);
         console.log("[GPS]Tracking stopped");
         currently_tracking = false;
-        if (current_track.length > 2) {
+        if (current_track.length >= 2) {
             var dur = new Date((new Date(current_track[current_track.length - 1].timestamp).getTime()) - (new Date(current_track[0].timestamp).getTime())).getSeconds();
             fireBase.push({ data: current_track, distance: current_track_distance, start_time: current_track[0].timestamp, end_time: current_track[current_track.length - 1].timestamp, duration: dur });
         }

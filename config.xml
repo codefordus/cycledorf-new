@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<widget id="de.cycledorf.main" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" defaultlocale="">
+  <name>Cycle Dorf</name>
+  <description>CycleDorf App =&gt; cycledorf.de</description>
+  <author email="dev@onsen.io" href="http://onsen.io">Max Schorradt ~ PublicPlan</author>
+  <content src="index.html" />
+  <access origin="*" />
+  <preference name="Orientation" value="portrait" />
+  <plugin name="cordova-plugin-geolocation" version="2.1.0" />
+  <plugin name="cordova-plugin-inappbrowser" version="1.2.1" />
+  <access origin="https://glowing-torch-6628.firebaseio.com" />
+</widget>

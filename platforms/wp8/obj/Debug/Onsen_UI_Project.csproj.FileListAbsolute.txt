@@ -1,0 +1,14 @@
+C:\Users\mivik\Documents\onsen_cycle_dorf\platforms\wp8\Bin\Debug\ApplicationIcon.png
+C:\Users\mivik\Documents\onsen_cycle_dorf\platforms\wp8\Bin\Debug\Background.png
+C:\Users\mivik\Documents\onsen_cycle_dorf\platforms\wp8\Bin\Debug\io.onsen.helloworld.dll
+C:\Users\mivik\Documents\onsen_cycle_dorf\platforms\wp8\Bin\Debug\io.onsen.helloworld.pdb
+C:\Users\mivik\Documents\onsen_cycle_dorf\platforms\wp8\Bin\Debug\AppManifest.xaml
+C:\Users\mivik\Documents\onsen_cycle_dorf\platforms\wp8\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\mivik\Documents\onsen_cycle_dorf\platforms\wp8\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap
+C:\Users\mivik\Documents\onsen_cycle_dorf\platforms\wp8\obj\Debug\App.g.cs
+C:\Users\mivik\Documents\onsen_cycle_dorf\platforms\wp8\obj\Debug\cordovalib\CordovaView.g.cs
+C:\Users\mivik\Documents\onsen_cycle_dorf\platforms\wp8\obj\Debug\MainPage.g.cs
+C:\Users\mivik\Documents\onsen_cycle_dorf\platforms\wp8\obj\Debug\io.onsen.helloworld.g.resources
+C:\Users\mivik\Documents\onsen_cycle_dorf\platforms\wp8\obj\Debug\io.onsen.helloworld.dll
+C:\Users\mivik\Documents\onsen_cycle_dorf\platforms\wp8\obj\Debug\io.onsen.helloworld.pdb
+C:\Users\mivik\Documents\onsen_cycle_dorf\platforms\wp8\obj\Debug\XapCacheFile.xml

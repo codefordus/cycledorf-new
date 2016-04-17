@@ -1,0 +1,14 @@
+C:\Users\mivik\Documents\onsen_cycle_dorf\platforms\wp8\Bin\Debug\ApplicationIcon.png
+C:\Users\mivik\Documents\onsen_cycle_dorf\platforms\wp8\Bin\Debug\Background.png
+C:\Users\mivik\Documents\onsen_cycle_dorf\platforms\wp8\Bin\Debug\de.cycledorf.main.dll
+C:\Users\mivik\Documents\onsen_cycle_dorf\platforms\wp8\Bin\Debug\de.cycledorf.main.pdb
+C:\Users\mivik\Documents\onsen_cycle_dorf\platforms\wp8\Bin\Debug\AppManifest.xaml
+C:\Users\mivik\Documents\onsen_cycle_dorf\platforms\wp8\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\mivik\Documents\onsen_cycle_dorf\platforms\wp8\Bin\Debug\de.cycledorf.main.xap
+C:\Users\mivik\Documents\onsen_cycle_dorf\platforms\wp8\obj\Debug\App.g.cs
+C:\Users\mivik\Documents\onsen_cycle_dorf\platforms\wp8\obj\Debug\cordovalib\CordovaView.g.cs
+C:\Users\mivik\Documents\onsen_cycle_dorf\platforms\wp8\obj\Debug\MainPage.g.cs
+C:\Users\mivik\Documents\onsen_cycle_dorf\platforms\wp8\obj\Debug\de.cycledorf.main.g.resources
+C:\Users\mivik\Documents\onsen_cycle_dorf\platforms\wp8\obj\Debug\de.cycledorf.main.dll
+C:\Users\mivik\Documents\onsen_cycle_dorf\platforms\wp8\obj\Debug\de.cycledorf.main.pdb
+C:\Users\mivik\Documents\onsen_cycle_dorf\platforms\wp8\obj\Debug\XapCacheFile.xml

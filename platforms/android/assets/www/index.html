@@ -24,12 +24,10 @@
 
     <!-- App Init -->
 
-    <title>Onsen UI Sliding Menu</title>
+    <title>CycleDorf</title>
 
     <script>
         app = angular.module('app', ['onsen']);
-
-        ons.bootstrap();
 
         app.controller("startHtml", function ($scope) {
             $scope.startStopText = "Starte Tracking!";
@@ -200,11 +198,13 @@
                 <ons-col>
                     <ons-button modifier="light" id="tracking_start_stop" ng-click="startStopLogging()">
                         {{startStopText}}
-                        <div id="map" style="height:100%;">
-
-                        </div>
                     </ons-button>
                 </ons-col>
+            </ons-row>
+            <ons-row style="height: 100%; width: 100%;">
+                <div style="height: 100%; width: 100%;" id="map">
+
+                </div>
             </ons-row>
         </ons-page>
     </ons-template>

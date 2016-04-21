@@ -55,7 +55,7 @@ function geoSuccess(pos) {
     if (pos.coords.accuracy > 80) {
         console.warn("[geo]Accuracy too low!");
     } else {
-        current_track.push({ acc: pos.coords.accuracy, lat: pos.coords.latitude, lon: pos.coords.longitude, timestamp: Math.floor(pos.timestamp.getTime() / 1000) });
+        current_track.push({ acc: pos.coords.accuracy, lat: pos.coords.latitude, lon: pos.coords.longitude, timestamp: Math.floor(new Date().getTime() / 1000) });
         var len = current_track.length;
         if (len > 1) {
             curDistance = getDistance(current_track[len - 1].lat, current_track[len - 1].lon, current_track[len - 2].lat, current_track[len - 2].lon);
@@ -121,7 +121,7 @@ function geo() {
         document.addEventListener( 'resume', onResume.bind( this ), false );
         //var geoInt = setInterval(geo, 10000);
         Firebase.INTERNAL.forceWebSockets();
-        fireBase = new Firebase("https://cycledorf-phonegap.firebaseio.com");
+        fireBase = new Firebase("https://cycledorf-phonegap.firebaseio.com/");
         fireBase.authAnonymously(function (e, authData) {
             if (e)
                 console.warn(e.code);

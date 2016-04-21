@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--DIESE DATEI WIRD AUS TELEMETRIEGRÜNDEN DURCH DEN VS-BUILDPROZESS GENERIERT-->
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="AppxManifestMetadata">
+    <AppxManifestMetaData Include="VisualStudio">
+      <Version>14.0</Version>
+    </AppxManifestMetaData>
+    <AppxManifestMetaData Include="VisualStudioEdition">
+      <Value>Microsoft Visual Studio Community 2015</Value>
+    </AppxManifestMetaData>
+    <AppxManifestMetaData Include="C:\Windows\system32\cmd.exe">
+      <Name>OperatingSystem</Name>
+    </AppxManifestMetaData>
+    <AppxManifestMetaData Include="ProjectGUID">
+      <Value>0a939938-56ff-4c0f-98bd-ca84caddf766</Value>
+    </AppxManifestMetaData>
+  </ItemGroup>
+</Project>

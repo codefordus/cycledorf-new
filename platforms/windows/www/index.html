@@ -10,10 +10,13 @@
     <script src="scripts/platformOverrides.js"></script>
     <script src="lib/angular/angular.js"></script>
     <script src="lib/onsen/js/onsenui.js"></script>
-    <script src="scripts/firebase.js"></script>
+    <script src="scripts/firebase-debug.js"></script>
+    <script src="scripts/leaflet-src.js"></script>
+
     <!-- CSS dependencies -->
     <link rel="stylesheet" href="lib/onsen/css/onsenui.css" />
     <link rel="stylesheet" href="lib/onsen/css/onsen-css-components-blue-basic-theme.css" />
+    <link rel="stylesheet" href="css/leaflet.css" />
 
     <!-- CSP support mode (required for Windows Universal apps) -->
     <link rel="stylesheet" href="lib/angular/angular-csp.css" />
@@ -21,7 +24,7 @@
 
     <!-- App Init -->
 
-    <title>Onsen UI Sliding Menu</title>
+    <title>CycleDorf</title>
 
     <script>
         app = angular.module('app', ['onsen']);
@@ -33,6 +36,7 @@
                 if (geo()) {
                     $scope.startStopText = "Stoppe Tracking!";
                 } else {
+
                     $scope.startStopText = "Starte Tracking!";
                 }
                 //geo();
@@ -42,9 +46,18 @@
         app.controller("statsHtml", function ($scope) {
 
         });
-
+            
         app.controller("loginHtml", function ($scope) {
-
+            $scope.loginTwitter = function () {
+                fireBase.unauth();
+                fireBase.authWithOAuthPopup("twitter", function (e, auth) {
+                    if (e) {
+                        console.warn(e.code);
+                    } else {
+                        console.log("Auth accomplished!");
+                    }
+                });
+            }
         });
 
         app.controller("settingsHtml", function ($scope) {
@@ -188,6 +201,11 @@
                     </ons-button>
                 </ons-col>
             </ons-row>
+            <ons-row style="height: 100%; width: 100%;">
+                <div style="height: 100%; width: 100%;" id="map">
+
+                </div>
+            </ons-row>
         </ons-page>
     </ons-template>
 
@@ -222,14 +240,16 @@
                 </div>
                 <div class="center">Einstellungen</div>
             </ons-toolbar>
-            <ons-row style="margin-top: 100px; text-align: center;">
-                <ons-col>
-                    <ons-button modifier="light" ng-click="menu.toggleMenu()">
-                                Toggle Menu
-                    </ons-button>
-                    <p style="color: #999; font-size: 13px;">Click "Toggle Menu" to close/open menu,<br> You can also swipe the page left/right.</p>
-                </ons-col>
-            </ons-row>
+            <ons-list>
+                <ons-list-item>
+                    <span style="color: #666">Karte</span>
+                    <ons-switch modifier="list-item deactivated" unchecked></ons-switch>
+                </ons-list-item>
+                <ons-list-item>
+                    <span style="color: #666">Statistiken</span>
+                    <ons-switch modifier="list-item" checked></ons-switch>
+                </ons-list-item>
+            </ons-list>
         </ons-page>
     </ons-template>
 
@@ -243,14 +263,7 @@
                 </div>
                 <div class="center">Hilfe</div>
             </ons-toolbar>
-            <ons-row style="margin-top: 100px; text-align: center;">
-                <ons-col>
-                    <ons-button modifier="light" ng-click="menu.toggleMenu()">
-                                Toggle Menu
-                    </ons-button>
-                    <p style="color: #999; font-size: 13px;">Click "Toggle Menu" to close/open menu,<br> You can also swipe the page left/right.</p>
-                </ons-col>
-            </ons-row>
+           
         </ons-page>
     </ons-template>
 
@@ -287,17 +300,9 @@
             </ons-toolbar>
             <ons-row style="margin-top: 100px; text-align: center;">
                 <ons-col>
-                    <p>
-                        <input class="text-input" id="username" placeholder="Benutzername"/>
-                    </p>
-                    <p>
-                        <input class="text-input" id="password" placeholder="Passwort"/>
-                    </p>
-                    <p>
-                        <ons-button id="login_button" modifier="light" ng-click="fireLogin()">
-                            Anmelden
-                        </ons-button>
-                    </p>
+                    <ons-button ng-click="loginTwitter()">
+                        <ons-icon icon="fa-twitter"></ons-icon>
+                    </ons-button>
                 </ons-col>
             </ons-row>
         </ons-page>

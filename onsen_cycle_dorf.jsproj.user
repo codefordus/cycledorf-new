@@ -1,9 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <ReferenceCachePath>C:\Users\mivik\AppData\Local\Temp\onsen_cycle_dorf_refcache</ReferenceCachePath>
+    <ReferenceCachePath>C:\Users\publicplan\AppData\Local\Temp\14pzqp54_onsen_cycle_dorf_refcache</ReferenceCachePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Windows Phone 8'">
     <DebuggerFlavor>PhoneDevice</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Windows Phone (Universal)'">
+    <DebuggerFlavor>PhoneDevice81</DebuggerFlavor>
+    <WindowsMobileEmulatorID>9E663E22-CF9E-4F8A-AAC9-DC758E55304E;Mobile Emulator 10.0.10586.0 WXGA 4.5 inch 1GB</WindowsMobileEmulatorID>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Windows-x64'">
+    <DebuggerFlavor>WindowsLocal</DebuggerFlavor>
   </PropertyGroup>
 </Project>

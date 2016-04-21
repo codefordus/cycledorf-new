@@ -1,1 +1,1 @@
-C:\Users\mivik\Documents\onsen_cycle_dorf\platforms\windows\CordovaApp.Phone.jsproj;arm
+C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\CordovaApp.Phone.jsproj;arm

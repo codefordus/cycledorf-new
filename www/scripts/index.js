@@ -9,6 +9,7 @@ var fireBaseTracks = null;
 var fireBaseStats = null;
 var fireBaseStatsDriven = null;
 var fireBaseStatsTime = null;
+var fireBaseStatsTracks = null;
 
 var error = null;
 var current_track = [];

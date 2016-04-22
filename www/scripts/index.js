@@ -76,8 +76,13 @@ function geoSuccess(pos) {
 }
 
 function geoError(e) {
+    geolocation.clearWatch(current_track_watch);
     currently_tracking = false;
     console.error(e);
+}
+
+function geoIsTracking() {
+    return currently_tracking;
 }
 
 function geo() {

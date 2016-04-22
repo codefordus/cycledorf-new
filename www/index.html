@@ -30,7 +30,10 @@
         app = angular.module('app', ['onsen']);
 
         app.controller("startHtml", function ($scope) {
-            $scope.startStopText = "Starte Tracking!";
+            if (geoIsTracking())
+                $scope.startStopText = "Stoppe Tracking!";
+            else
+                $scope.startStopText = "Starte Tracking!";
 
             $scope.startStopLogging = function () {
                 if (geo()) {

@@ -9,6 +9,7 @@ var fireBaseTracks = null;
 var fireBaseStats = null;
 var fireBaseStatsDriven = null;
 var fireBaseStatsTime = null;
+var fireBaseStatsTracks = null;
 
 var error = null;
 var current_track = [];
@@ -55,7 +56,7 @@ function geoSuccess(pos) {
     if (pos.coords.accuracy > 80) {
         console.warn("[geo]Accuracy too low!");
     } else {
-        current_track.push({ acc: pos.coords.accuracy, lat: pos.coords.latitude, lon: pos.coords.longitude, timestamp: Math.floor(pos.timestamp.getTime() / 1000) });
+        current_track.push({ acc: pos.coords.accuracy, lat: pos.coords.latitude, lon: pos.coords.longitude, timestamp: Math.floor(new Date().getTime() / 1000) });
         var len = current_track.length;
         if (len > 1) {
             curDistance = getDistance(current_track[len - 1].lat, current_track[len - 1].lon, current_track[len - 2].lat, current_track[len - 2].lon);
@@ -90,6 +91,9 @@ function geo() {
             fireBaseStatsTime.transaction(function (curTime) {
                 return curTime + dur;
             });
+            fireBaseStatsTracks.transaction(function (curTracks) {
+                return curTracks + 1;
+            });
         }
         current_track = [];
         current_track_distance = 0;
@@ -118,7 +122,7 @@ function geo() {
         document.addEventListener( 'resume', onResume.bind( this ), false );
         //var geoInt = setInterval(geo, 10000);
         Firebase.INTERNAL.forceWebSockets();
-        fireBase = new Firebase("https://cycledorf-phonegap.firebaseio.com");
+        fireBase = new Firebase("https://cycledorf-phonegap.firebaseio.com/");
         fireBase.authAnonymously(function (e, authData) {
             if (e)
                 console.warn(e.code);
@@ -132,6 +136,8 @@ function geo() {
                 console.info("[FB]Child 'stats.total_driven' added!");
                 fireBaseStatsTime = fireBaseStats.child("total_time");
                 console.info("[FB]Child 'stats.total_time' added!");
+                fireBaseStatsTracks = fireBaseStats.child("total_tracks");
+                console.info("[FB]Child 'stats.total_tracks' added!");
             }
         });
         //$(".start")

@@ -7,7 +7,7 @@
 
     Weitere Informationen zu Paketmanifestdateien finden Sie unter http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="de.cycledorf.main" Publisher="CN=$username$" Version="0.0.1.0" ProcessorArchitecture="arm" />
+  <Identity Name="de.cycledorf.main" Publisher="CN=$username$" Version="0.0.1.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="25bd0df0-0415-11e6-9454-1594caf56cac" PhonePublisherId="db093ed5-53b1-45f7-af72-751e8f36ab80" />
   <Properties>
     <DisplayName>Cycle Dorf</DisplayName>

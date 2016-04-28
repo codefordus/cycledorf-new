@@ -29,8 +29,16 @@
     <script>
         app = angular.module('app', ['onsen']);
 
-        app.controller("startHtml", function ($scope) {
-            $scope.startStopText = "Starte Tracking!";
+        app.controller("startHtml", function ($scope, $interval) {
+            if (geoIsTracking())
+                $scope.startStopText = "Stoppe Tracking!";
+            else
+                $scope.startStopText = "Starte Tracking!";
+            $interval(function () {
+                $scope.distanceText = (Math.round(current_track_distance * 100) / 100);
+                $scope.durationText = (Math.round((current_track_duration/60)*100)/100);
+            }, 1000);
+            
 
             $scope.startStopLogging = function () {
                 if (geo()) {
@@ -201,10 +209,17 @@
                     </ons-button>
                 </ons-col>
             </ons-row>
-            <ons-row style="height: 100%; width: 100%;">
-                <div style="height: 100%; width: 100%;" id="map">
-
-                </div>
+            <ons-row style="text-align: center;">
+                <ons-col>
+                    <ons-icon icon="fa-road"></ons-icon>
+                    Gefahrene Strecke: {{distanceText}} Meter
+                </ons-col>
+            </ons-row>
+            <ons-row style="text-align: center;">
+                <ons-col>
+                    <ons-icon icon="fa-clock-o"></ons-icon>
+                    Dauer: {{durationText}} Minuten
+                </ons-col>
             </ons-row>
         </ons-page>
     </ons-template>

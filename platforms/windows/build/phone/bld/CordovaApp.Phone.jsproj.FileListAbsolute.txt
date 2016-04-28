@@ -1,6 +1,6 @@
-C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\phone\debug\arm\resources.pri
-C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\phone\debug\arm\AppxManifest.xml
-C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\phone\debug\arm\CordovaApp.Phone.build.appxrecipe
+C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\phone\debug\x86\resources.pri
+C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\phone\debug\x86\AppxManifest.xml
+C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\phone\debug\x86\CordovaApp.Phone.build.appxrecipe
 C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\phone\bld\priconfig.xml
 C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\phone\bld\priconfig.xml.intermediate
 C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\phone\bld\layout.resfiles

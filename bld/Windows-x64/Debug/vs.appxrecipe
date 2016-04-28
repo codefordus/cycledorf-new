@@ -22,7 +22,7 @@
     <AppXManifest Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\windows\debug\x64\win8.1\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-04-21T16:24:39.929</Modified>
+      <Modified>2016-04-26T09:40:10.769</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -71,367 +71,367 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\css\images\layers-2x.png">
       <PackagePath>www\css\images\layers-2x.png</PackagePath>
-      <Modified>2016-04-21T16:24:37.755</Modified>
+      <Modified>2016-04-26T09:40:09.466</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\css\images\layers.png">
       <PackagePath>www\css\images\layers.png</PackagePath>
-      <Modified>2016-04-21T16:24:37.757</Modified>
+      <Modified>2016-04-26T09:40:09.468</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\css\images\marker-icon-2x.png">
       <PackagePath>www\css\images\marker-icon-2x.png</PackagePath>
-      <Modified>2016-04-21T16:24:37.759</Modified>
+      <Modified>2016-04-26T09:40:09.469</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\css\images\marker-icon.png">
       <PackagePath>www\css\images\marker-icon.png</PackagePath>
-      <Modified>2016-04-21T16:24:37.761</Modified>
+      <Modified>2016-04-26T09:40:09.471</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\css\images\marker-shadow.png">
       <PackagePath>www\css\images\marker-shadow.png</PackagePath>
-      <Modified>2016-04-21T16:24:37.763</Modified>
+      <Modified>2016-04-26T09:40:09.473</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\cordova-js-src\exec.js">
       <PackagePath>www\cordova-js-src\exec.js</PackagePath>
-      <Modified>2016-04-21T16:24:38.264</Modified>
+      <Modified>2016-04-26T09:40:09.930</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\cordova-js-src\platform.js">
       <PackagePath>www\cordova-js-src\platform.js</PackagePath>
-      <Modified>2016-04-21T16:24:38.265</Modified>
+      <Modified>2016-04-26T09:40:09.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\cordova.js">
       <PackagePath>www\cordova.js</PackagePath>
-      <Modified>2016-04-21T16:24:37.897</Modified>
+      <Modified>2016-04-26T09:40:09.625</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\cordova_plugins.js">
       <PackagePath>www\cordova_plugins.js</PackagePath>
-      <Modified>2016-04-21T16:24:38.267</Modified>
+      <Modified>2016-04-26T09:40:09.932</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\angular\angular.js">
       <PackagePath>www\lib\angular\angular.js</PackagePath>
-      <Modified>2016-04-21T16:24:38.300</Modified>
+      <Modified>2016-04-26T09:40:09.949</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\angular\angular.min.js">
       <PackagePath>www\lib\angular\angular.min.js</PackagePath>
-      <Modified>2016-04-21T16:24:38.302</Modified>
+      <Modified>2016-04-26T09:40:09.953</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\angular\index.js">
       <PackagePath>www\lib\angular\index.js</PackagePath>
-      <Modified>2016-04-21T16:24:38.304</Modified>
+      <Modified>2016-04-26T09:40:09.954</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\js\onsenui.js">
       <PackagePath>www\lib\onsen\js\onsenui.js</PackagePath>
-      <Modified>2016-04-21T16:24:38.333</Modified>
+      <Modified>2016-04-26T09:40:10.012</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\js\onsenui.min.js">
       <PackagePath>www\lib\onsen\js\onsenui.min.js</PackagePath>
-      <Modified>2016-04-21T16:24:38.336</Modified>
+      <Modified>2016-04-26T09:40:10.024</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\js\onsenui_all.js">
       <PackagePath>www\lib\onsen\js\onsenui_all.js</PackagePath>
-      <Modified>2016-04-21T16:24:38.364</Modified>
+      <Modified>2016-04-26T09:40:10.051</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\js\onsenui_all.min.js">
       <PackagePath>www\lib\onsen\js\onsenui_all.min.js</PackagePath>
-      <Modified>2016-04-21T16:24:38.372</Modified>
+      <Modified>2016-04-26T09:40:10.059</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\plugins\cordova-plugin-geolocation\src\windows\GeolocationProxy.js">
       <PackagePath>www\plugins\cordova-plugin-geolocation\src\windows\GeolocationProxy.js</PackagePath>
-      <Modified>2016-04-21T16:24:38.373</Modified>
+      <Modified>2016-04-26T09:40:10.061</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\plugins\cordova-plugin-geolocation\www\Coordinates.js">
       <PackagePath>www\plugins\cordova-plugin-geolocation\www\Coordinates.js</PackagePath>
-      <Modified>2016-04-21T16:24:38.374</Modified>
+      <Modified>2016-04-26T09:40:10.062</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\plugins\cordova-plugin-geolocation\www\geolocation.js">
       <PackagePath>www\plugins\cordova-plugin-geolocation\www\geolocation.js</PackagePath>
-      <Modified>2016-04-21T16:24:38.375</Modified>
+      <Modified>2016-04-26T09:40:10.063</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\plugins\cordova-plugin-geolocation\www\Position.js">
       <PackagePath>www\plugins\cordova-plugin-geolocation\www\Position.js</PackagePath>
-      <Modified>2016-04-21T16:24:38.376</Modified>
+      <Modified>2016-04-26T09:40:10.064</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\plugins\cordova-plugin-geolocation\www\PositionError.js">
       <PackagePath>www\plugins\cordova-plugin-geolocation\www\PositionError.js</PackagePath>
-      <Modified>2016-04-21T16:24:38.377</Modified>
+      <Modified>2016-04-26T09:40:10.065</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js">
       <PackagePath>www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js</PackagePath>
-      <Modified>2016-04-21T16:24:38.377</Modified>
+      <Modified>2016-04-26T09:40:10.065</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js">
       <PackagePath>www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js</PackagePath>
-      <Modified>2016-04-21T16:24:38.378</Modified>
+      <Modified>2016-04-26T09:40:10.066</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\scripts\firebase-debug.js">
       <PackagePath>www\scripts\firebase-debug.js</PackagePath>
-      <Modified>2016-04-21T16:24:38.385</Modified>
+      <Modified>2016-04-26T09:40:10.070</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\scripts\firebase.js">
       <PackagePath>www\scripts\firebase.js</PackagePath>
-      <Modified>2016-04-21T16:24:38.387</Modified>
+      <Modified>2016-04-26T09:40:10.072</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\scripts\index.js">
       <PackagePath>www\scripts\index.js</PackagePath>
-      <Modified>2016-04-21T16:24:38.388</Modified>
+      <Modified>2016-04-26T09:40:10.073</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\scripts\leaflet-src.js">
       <PackagePath>www\scripts\leaflet-src.js</PackagePath>
-      <Modified>2016-04-21T16:24:38.392</Modified>
+      <Modified>2016-04-26T09:40:10.076</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\scripts\leaflet.js">
       <PackagePath>www\scripts\leaflet.js</PackagePath>
-      <Modified>2016-04-21T16:24:38.394</Modified>
+      <Modified>2016-04-26T09:40:10.077</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\scripts\platformOverrides.js">
       <PackagePath>www\scripts\platformOverrides.js</PackagePath>
-      <Modified>2016-04-21T16:24:38.395</Modified>
+      <Modified>2016-04-26T09:40:10.078</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\scripts\winstore-jscompat.js">
       <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
-      <Modified>2016-04-21T16:24:38.396</Modified>
+      <Modified>2016-04-26T09:40:10.079</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\WinJS\js\base.js">
       <PackagePath>www\WinJS\js\base.js</PackagePath>
-      <Modified>2016-04-21T16:24:37.919</Modified>
+      <Modified>2016-04-26T09:40:09.647</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\css\inappbrowser.css">
       <PackagePath>www\css\inappbrowser.css</PackagePath>
-      <Modified>2016-04-21T16:24:37.900</Modified>
+      <Modified>2016-04-26T09:40:09.629</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\css\leaflet.css">
       <PackagePath>www\css\leaflet.css</PackagePath>
-      <Modified>2016-04-21T16:24:38.268</Modified>
+      <Modified>2016-04-26T09:40:09.933</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\angular\angular-csp.css">
       <PackagePath>www\lib\angular\angular-csp.css</PackagePath>
-      <Modified>2016-04-21T16:24:38.269</Modified>
+      <Modified>2016-04-26T09:40:09.934</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\css\font_awesome\css\font-awesome.css">
       <PackagePath>www\lib\onsen\css\font_awesome\css\font-awesome.css</PackagePath>
-      <Modified>2016-04-21T16:24:38.306</Modified>
+      <Modified>2016-04-26T09:40:09.956</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\css\font_awesome\css\font-awesome.min.css">
       <PackagePath>www\lib\onsen\css\font_awesome\css\font-awesome.min.css</PackagePath>
-      <Modified>2016-04-21T16:24:38.307</Modified>
+      <Modified>2016-04-26T09:40:09.958</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\css\ionicons\css\ionicons.css">
       <PackagePath>www\lib\onsen\css\ionicons\css\ionicons.css</PackagePath>
-      <Modified>2016-04-21T16:24:38.309</Modified>
+      <Modified>2016-04-26T09:40:09.960</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\css\ionicons\css\ionicons.min.css">
       <PackagePath>www\lib\onsen\css\ionicons\css\ionicons.min.css</PackagePath>
-      <Modified>2016-04-21T16:24:38.310</Modified>
+      <Modified>2016-04-26T09:40:09.962</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\css\onsen-css-components-blue-basic-theme.css">
       <PackagePath>www\lib\onsen\css\onsen-css-components-blue-basic-theme.css</PackagePath>
-      <Modified>2016-04-21T16:24:38.311</Modified>
+      <Modified>2016-04-26T09:40:09.965</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\css\onsen-css-components-blue-theme.css">
       <PackagePath>www\lib\onsen\css\onsen-css-components-blue-theme.css</PackagePath>
-      <Modified>2016-04-21T16:24:38.313</Modified>
+      <Modified>2016-04-26T09:40:09.968</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\css\onsen-css-components-dark-theme.css">
       <PackagePath>www\lib\onsen\css\onsen-css-components-dark-theme.css</PackagePath>
-      <Modified>2016-04-21T16:24:38.315</Modified>
+      <Modified>2016-04-26T09:40:09.970</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\css\onsen-css-components-default.css">
       <PackagePath>www\lib\onsen\css\onsen-css-components-default.css</PackagePath>
-      <Modified>2016-04-21T16:24:38.317</Modified>
+      <Modified>2016-04-26T09:40:09.974</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\css\onsen-css-components-purple-theme.css">
       <PackagePath>www\lib\onsen\css\onsen-css-components-purple-theme.css</PackagePath>
-      <Modified>2016-04-21T16:24:38.318</Modified>
+      <Modified>2016-04-26T09:40:09.977</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\css\onsen-css-components-sunshine-theme.css">
       <PackagePath>www\lib\onsen\css\onsen-css-components-sunshine-theme.css</PackagePath>
-      <Modified>2016-04-21T16:24:38.319</Modified>
+      <Modified>2016-04-26T09:40:09.980</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\css\onsen-css-components.css">
       <PackagePath>www\lib\onsen\css\onsen-css-components.css</PackagePath>
-      <Modified>2016-04-21T16:24:38.321</Modified>
+      <Modified>2016-04-26T09:40:09.983</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\css\onsenui.css">
       <PackagePath>www\lib\onsen\css\onsenui.css</PackagePath>
-      <Modified>2016-04-21T16:24:38.322</Modified>
+      <Modified>2016-04-26T09:40:09.986</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\index.html">
       <PackagePath>www\index.html</PackagePath>
-      <Modified>2016-04-21T16:24:37.769</Modified>
+      <Modified>2016-04-26T09:40:09.477</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\angular\angular.min.js.gzip">
       <PackagePath>www\lib\angular\angular.min.js.gzip</PackagePath>
-      <Modified>2016-04-21T16:24:37.778</Modified>
+      <Modified>2016-04-26T09:40:09.489</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\angular\angular.min.js.map">
       <PackagePath>www\lib\angular\angular.min.js.map</PackagePath>
-      <Modified>2016-04-21T16:24:37.780</Modified>
+      <Modified>2016-04-26T09:40:09.491</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\angular\bower.json">
       <PackagePath>www\lib\angular\bower.json</PackagePath>
-      <Modified>2016-04-21T16:24:38.303</Modified>
+      <Modified>2016-04-26T09:40:09.953</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\angular\package.json">
       <PackagePath>www\lib\angular\package.json</PackagePath>
-      <Modified>2016-04-21T16:24:38.305</Modified>
+      <Modified>2016-04-26T09:40:09.955</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\angular\README.md">
       <PackagePath>www\lib\angular\README.md</PackagePath>
-      <Modified>2016-04-21T16:24:37.785</Modified>
+      <Modified>2016-04-26T09:40:09.498</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\css\font_awesome\fonts\fontawesome-webfont.eot">
       <PackagePath>www\lib\onsen\css\font_awesome\fonts\fontawesome-webfont.eot</PackagePath>
-      <Modified>2016-04-21T16:24:37.793</Modified>
+      <Modified>2016-04-26T09:40:09.506</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\css\ionicons\fonts\ionicons.eot">
       <PackagePath>www\lib\onsen\css\ionicons\fonts\ionicons.eot</PackagePath>
-      <Modified>2016-04-21T16:24:37.810</Modified>
+      <Modified>2016-04-26T09:40:09.524</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\css\font_awesome\fonts\fontawesome-webfont.svg">
       <PackagePath>www\lib\onsen\css\font_awesome\fonts\fontawesome-webfont.svg</PackagePath>
-      <Modified>2016-04-21T16:24:37.795</Modified>
+      <Modified>2016-04-26T09:40:09.509</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\css\ionicons\fonts\ionicons.svg">
       <PackagePath>www\lib\onsen\css\ionicons\fonts\ionicons.svg</PackagePath>
-      <Modified>2016-04-21T16:24:37.812</Modified>
+      <Modified>2016-04-26T09:40:09.526</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\css\font_awesome\fonts\fontawesome-webfont.ttf">
       <PackagePath>www\lib\onsen\css\font_awesome\fonts\fontawesome-webfont.ttf</PackagePath>
-      <Modified>2016-04-21T16:24:37.797</Modified>
+      <Modified>2016-04-26T09:40:09.511</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\css\ionicons\fonts\ionicons.ttf">
       <PackagePath>www\lib\onsen\css\ionicons\fonts\ionicons.ttf</PackagePath>
-      <Modified>2016-04-21T16:24:37.814</Modified>
+      <Modified>2016-04-26T09:40:09.529</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\css\font_awesome\fonts\fontawesome-webfont.woff">
       <PackagePath>www\lib\onsen\css\font_awesome\fonts\fontawesome-webfont.woff</PackagePath>
-      <Modified>2016-04-21T16:24:37.799</Modified>
+      <Modified>2016-04-26T09:40:09.513</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\css\ionicons\fonts\ionicons.woff">
       <PackagePath>www\lib\onsen\css\ionicons\fonts\ionicons.woff</PackagePath>
-      <Modified>2016-04-21T16:24:37.816</Modified>
+      <Modified>2016-04-26T09:40:09.531</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\css\font_awesome\fonts\fontawesome-webfont.woff2">
       <PackagePath>www\lib\onsen\css\font_awesome\fonts\fontawesome-webfont.woff2</PackagePath>
-      <Modified>2016-04-21T16:24:37.801</Modified>
+      <Modified>2016-04-26T09:40:09.515</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\css\font_awesome\fonts\FontAwesome.otf">
       <PackagePath>www\lib\onsen\css\font_awesome\fonts\FontAwesome.otf</PackagePath>
-      <Modified>2016-04-21T16:24:37.803</Modified>
+      <Modified>2016-04-26T09:40:09.517</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\stylus\blue-basic-theme.styl">
       <PackagePath>www\lib\onsen\stylus\blue-basic-theme.styl</PackagePath>
-      <Modified>2016-04-21T16:24:37.841</Modified>
+      <Modified>2016-04-26T09:40:09.561</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\stylus\blue-theme.styl">
       <PackagePath>www\lib\onsen\stylus\blue-theme.styl</PackagePath>
-      <Modified>2016-04-21T16:24:37.842</Modified>
+      <Modified>2016-04-26T09:40:09.563</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\stylus\components\alert-dialog.styl">
       <PackagePath>www\lib\onsen\stylus\components\alert-dialog.styl</PackagePath>
-      <Modified>2016-04-21T16:24:37.844</Modified>
+      <Modified>2016-04-26T09:40:09.566</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\stylus\components\button-bar.styl">
       <PackagePath>www\lib\onsen\stylus\components\button-bar.styl</PackagePath>
-      <Modified>2016-04-21T16:24:37.845</Modified>
+      <Modified>2016-04-26T09:40:09.568</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\stylus\components\button.styl">
       <PackagePath>www\lib\onsen\stylus\components\button.styl</PackagePath>
-      <Modified>2016-04-21T16:24:37.847</Modified>
+      <Modified>2016-04-26T09:40:09.570</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\stylus\components\checkbox.styl">
       <PackagePath>www\lib\onsen\stylus\components\checkbox.styl</PackagePath>
-      <Modified>2016-04-21T16:24:37.849</Modified>
+      <Modified>2016-04-26T09:40:09.572</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\stylus\components\dialog.styl">
       <PackagePath>www\lib\onsen\stylus\components\dialog.styl</PackagePath>
-      <Modified>2016-04-21T16:24:37.851</Modified>
+      <Modified>2016-04-26T09:40:09.574</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\stylus\components\global.styl">
       <PackagePath>www\lib\onsen\stylus\components\global.styl</PackagePath>
-      <Modified>2016-04-21T16:24:37.852</Modified>
+      <Modified>2016-04-26T09:40:09.576</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\stylus\components\index.styl">
       <PackagePath>www\lib\onsen\stylus\components\index.styl</PackagePath>
-      <Modified>2016-04-21T16:24:37.854</Modified>
+      <Modified>2016-04-26T09:40:09.578</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\stylus\components\list.styl">
       <PackagePath>www\lib\onsen\stylus\components\list.styl</PackagePath>
-      <Modified>2016-04-21T16:24:37.855</Modified>
+      <Modified>2016-04-26T09:40:09.580</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\stylus\components\modal.styl">
       <PackagePath>www\lib\onsen\stylus\components\modal.styl</PackagePath>
-      <Modified>2016-04-21T16:24:37.857</Modified>
+      <Modified>2016-04-26T09:40:09.582</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\stylus\components\navigation-bar.styl">
       <PackagePath>www\lib\onsen\stylus\components\navigation-bar.styl</PackagePath>
-      <Modified>2016-04-21T16:24:37.858</Modified>
+      <Modified>2016-04-26T09:40:09.583</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\stylus\components\notification.styl">
       <PackagePath>www\lib\onsen\stylus\components\notification.styl</PackagePath>
-      <Modified>2016-04-21T16:24:37.860</Modified>
+      <Modified>2016-04-26T09:40:09.585</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\stylus\components\page.styl">
       <PackagePath>www\lib\onsen\stylus\components\page.styl</PackagePath>
-      <Modified>2016-04-21T16:24:37.861</Modified>
+      <Modified>2016-04-26T09:40:09.587</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\stylus\components\popover.styl">
       <PackagePath>www\lib\onsen\stylus\components\popover.styl</PackagePath>
-      <Modified>2016-04-21T16:24:37.863</Modified>
+      <Modified>2016-04-26T09:40:09.588</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\stylus\components\radio-button.styl">
       <PackagePath>www\lib\onsen\stylus\components\radio-button.styl</PackagePath>
-      <Modified>2016-04-21T16:24:37.865</Modified>
+      <Modified>2016-04-26T09:40:09.589</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\stylus\components\range.styl">
       <PackagePath>www\lib\onsen\stylus\components\range.styl</PackagePath>
-      <Modified>2016-04-21T16:24:37.866</Modified>
+      <Modified>2016-04-26T09:40:09.591</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\stylus\components\search-input.styl">
       <PackagePath>www\lib\onsen\stylus\components\search-input.styl</PackagePath>
-      <Modified>2016-04-21T16:24:37.868</Modified>
+      <Modified>2016-04-26T09:40:09.592</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\stylus\components\switch.styl">
       <PackagePath>www\lib\onsen\stylus\components\switch.styl</PackagePath>
-      <Modified>2016-04-21T16:24:37.870</Modified>
+      <Modified>2016-04-26T09:40:09.594</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\stylus\components\tab-bar.styl">
       <PackagePath>www\lib\onsen\stylus\components\tab-bar.styl</PackagePath>
-      <Modified>2016-04-21T16:24:37.871</Modified>
+      <Modified>2016-04-26T09:40:09.596</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\stylus\components\text-input.styl">
       <PackagePath>www\lib\onsen\stylus\components\text-input.styl</PackagePath>
-      <Modified>2016-04-21T16:24:37.873</Modified>
+      <Modified>2016-04-26T09:40:09.598</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\stylus\components\textarea.styl">
       <PackagePath>www\lib\onsen\stylus\components\textarea.styl</PackagePath>
-      <Modified>2016-04-21T16:24:37.875</Modified>
+      <Modified>2016-04-26T09:40:09.599</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\stylus\components\toolbar-button.styl">
       <PackagePath>www\lib\onsen\stylus\components\toolbar-button.styl</PackagePath>
-      <Modified>2016-04-21T16:24:37.876</Modified>
+      <Modified>2016-04-26T09:40:09.601</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\stylus\components\util.styl">
       <PackagePath>www\lib\onsen\stylus\components\util.styl</PackagePath>
-      <Modified>2016-04-21T16:24:37.877</Modified>
+      <Modified>2016-04-26T09:40:09.602</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\stylus\dark-theme.styl">
       <PackagePath>www\lib\onsen\stylus\dark-theme.styl</PackagePath>
-      <Modified>2016-04-21T16:24:37.879</Modified>
+      <Modified>2016-04-26T09:40:09.604</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\stylus\purple-theme.styl">
       <PackagePath>www\lib\onsen\stylus\purple-theme.styl</PackagePath>
-      <Modified>2016-04-21T16:24:37.880</Modified>
+      <Modified>2016-04-26T09:40:09.605</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\stylus\sunshine-theme.styl">
       <PackagePath>www\lib\onsen\stylus\sunshine-theme.styl</PackagePath>
-      <Modified>2016-04-21T16:24:37.881</Modified>
+      <Modified>2016-04-26T09:40:09.607</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\config.xml">
       <PackagePath>config.xml</PackagePath>
-      <Modified>2016-04-21T16:24:37.697</Modified>
+      <Modified>2016-04-26T09:40:09.401</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\windows\debug\x64\win8.1\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-04-21T16:24:39.751</Modified>
+      <Modified>2016-04-26T09:40:10.614</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

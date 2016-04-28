@@ -16,6 +16,8 @@ var current_track = [];
 var current_track_watch = null;
 var current_track_distance = 0;
 var current_track_last_time = 0;
+var current_track_duration = 0;
+var current_track_duration_interval = null;
 var currently_tracking = false;
 var map = null;
 
@@ -101,13 +103,16 @@ function geo() {
             });
         }
         current_track = [];
-        current_track_distance = 0;
+        //current_track_distance = 0;
+        clearInterval(current_track_duration_interval);
         return false;
     } else {
         current_track_watch = navigator.geolocation.watchPosition(geoSuccess, geoError, { frequency: 1000, enableHighAccuracy: true });
         console.log("[GPS]Tracking enabled");
         currently_tracking = true;
-        
+        current_track_distance = 0;
+        current_track_duration = 0;
+        current_track_duration_interval = setInterval(function () { current_track_duration++; }, 1000);
         //map init
         //map = L.map("map");
 
@@ -156,4 +161,51 @@ function geo() {
     function onResume() {
         // TODO: This application has been reactivated. Restore application state here.
     };
-} )();
+})();
+
+
+
+
+if (!Object.prototype.watch) {
+    Object.defineProperty(Object.prototype, "watch", {
+        enumerable: false
+		, configurable: true
+		, writable: false
+		, value: function (prop, handler) {
+		    var
+			  oldval = this[prop]
+			, newval = oldval
+			, getter = function () {
+			    return newval;
+			}
+			, setter = function (val) {
+			    oldval = newval;
+			    return newval = handler.call(this, prop, oldval, val);
+			}
+		    ;
+
+		    if (delete this[prop]) { // can't watch constants
+		        Object.defineProperty(this, prop, {
+		            get: getter
+					, set: setter
+					, enumerable: true
+					, configurable: true
+		        });
+		    }
+		}
+    });
+}
+
+// object.unwatch
+if (!Object.prototype.unwatch) {
+    Object.defineProperty(Object.prototype, "unwatch", {
+        enumerable: false
+		, configurable: true
+		, writable: false
+		, value: function (prop) {
+		    var val = this[prop];
+		    delete this[prop]; // remove accessors
+		    this[prop] = val;
+		}
+    });
+}

@@ -1,5 +1,5 @@
 [Files]
-"C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\phone\debug\arm\AppxManifest.xml" "AppxManifest.xml"
+"C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\phone\debug\x86\AppxManifest.xml" "AppxManifest.xml"
 "C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\images\SplashScreen.scale-100.png" "images\SplashScreen.scale-100.png"
 "C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\images\SplashScreenPhone.scale-240.png" "images\SplashScreenPhone.scale-240.png"
 "C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\images\Square150x150Logo.scale-100.png" "images\Square150x150Logo.scale-100.png"
@@ -105,4 +105,4 @@
 "C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\stylus\purple-theme.styl" "www\lib\onsen\stylus\purple-theme.styl"
 "C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\lib\onsen\stylus\sunshine-theme.styl" "www\lib\onsen\stylus\sunshine-theme.styl"
 "C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\config.xml" "config.xml"
-"C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\phone\debug\arm\resources.pri" "resources.pri"
+"C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\phone\debug\x86\resources.pri" "resources.pri"

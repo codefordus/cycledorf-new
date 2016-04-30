@@ -7,11 +7,13 @@
     <meta name="mobile-web-app-capable" content="yes" />
 
     <!-- JS dependencies (order matters!) -->
+    <script src="scripts/leaflet-src.js"></script>
     <script src="scripts/platformOverrides.js"></script>
     <script src="lib/angular/angular.js"></script>
     <script src="lib/onsen/js/onsenui.js"></script>
     <script src="scripts/firebase-debug.js"></script>
-    <script src="scripts/leaflet-src.js"></script>
+    <script src="scripts/angular-leaflet-directive.js"></script>
+    
 
     <!-- CSS dependencies -->
     <link rel="stylesheet" href="lib/onsen/css/onsenui.css" />
@@ -27,7 +29,7 @@
     <title>CycleDorf</title>
 
     <script>
-        app = angular.module('app', ['onsen']);
+        app = angular.module('app', ['onsen', 'leaflet-directive']);
 
         app.controller("startHtml", function ($scope, $interval) {
             if (geoIsTracking())

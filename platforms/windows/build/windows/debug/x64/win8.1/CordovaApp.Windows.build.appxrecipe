@@ -3,16 +3,16 @@
   <PropertyGroup>
     <Machine>NB11</Machine>
     <WindowsUser>publicplan</WindowsUser>
-    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <TargetOsVersion>6.3</TargetOsVersion>
-    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
-    <SolutionConfiguration>debug|x86</SolutionConfiguration>
-    <PackageArchitecture>x86</PackageArchitecture>
-    <PackageIdentityName>25bd0df0-0415-11e6-9454-1594caf56cac</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\phone\bld\</IntermediateOutputPath>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>de.cycledorf.main</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\windows\bld\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\phone\debug\x86\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\windows\debug\x64\win8.1\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
@@ -20,58 +20,36 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\images\SplashScreen.scale-100.png">
       <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\images\SplashScreenPhone.scale-240.png">
-      <PackagePath>images\SplashScreenPhone.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\images\Square150x150Logo.scale-100.png">
       <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\images\Square150x150Logo.scale-240.png">
-      <PackagePath>images\Square150x150Logo.scale-240.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\images\Square30x30Logo.scale-100.png">
       <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\images\Square310x310Logo.scale-100.png">
       <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\images\Square44x44Logo.scale-100.png">
       <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\images\Square44x44Logo.scale-240.png">
-      <PackagePath>images\Square44x44Logo.scale-240.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\images\Square70x70Logo.scale-100.png">
       <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\images\Square71x71Logo.scale-100.png">
       <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\images\Square71x71Logo.scale-240.png">
-      <PackagePath>images\Square71x71Logo.scale-240.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\images\StoreLogo.scale-100.png">
       <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\images\StoreLogo.scale-240.png">
-      <PackagePath>images\StoreLogo.scale-240.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\images\Wide310x150Logo.scale-100.png">
       <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\images\Wide310x150Logo.scale-240.png">
-      <PackagePath>images\Wide310x150Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\css\images\layers-2x.png">
@@ -142,6 +120,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js">
       <PackagePath>www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\scripts\angular-leaflet-directive.js">
+      <PackagePath>www\scripts\angular-leaflet-directive.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\scripts\firebase-debug.js">
       <PackagePath>www\scripts\firebase-debug.js</PackagePath>
@@ -344,17 +325,17 @@
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\config.xml">
       <PackagePath>config.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\phone\debug\x86\resources.pri">
+    <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\windows\debug\x64\win8.1\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Phone.WinJS.2.1\1.0\">
-      <Name>Microsoft.Phone.WinJS.2.1</Name>
-      <Version>1.0.9651.0</Version>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.17018</Version>
       <Architecture>Neutral</Architecture>
-      <FrameworkIdentity>Name=Microsoft.Phone.WinJS.2.1, MinVersion=1.0.9651.0</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Phone.WinJS.2.1\1.0\Microsoft.Phone.WinJS.2.1.appx</AppxLocation>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.17018</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
       <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
     </ResolvedSDKReference>
   </ItemGroup>

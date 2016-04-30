@@ -36,11 +36,6 @@
                 $scope.startStopText = "Stoppe Tracking!";
             else
                 $scope.startStopText = "Starte Tracking!";
-            $interval(function () {
-                $scope.distanceText = (Math.round(current_track_distance * 100) / 100);
-                $scope.durationText = (Math.round((current_track_duration/60)*100)/100);
-            }, 1000);
-            
 
             $scope.startStopLogging = function () {
                 if (geo()) {
@@ -53,8 +48,11 @@
             };
         });
 
-        app.controller("statsHtml", function ($scope) {
-
+        app.controller("statsHtml", function ($scope, $interval) {
+            $interval(function () {
+                $scope.distanceTextLocal = (Math.round(current_track_distance * 100) / 100);
+                $scope.durationTextLocal = (Math.round((current_track_duration / 60) * 100) / 100);
+            }, 1000);
         });
             
         app.controller("loginHtml", function ($scope) {
@@ -211,23 +209,12 @@
                     </ons-button>
                 </ons-col>
             </ons-row>
-            <ons-row style="text-align: center;">
-                <ons-col>
-                    <ons-icon icon="fa-road"></ons-icon>
-                    Gefahrene Strecke: {{distanceText}} Meter
-                </ons-col>
-            </ons-row>
-            <ons-row style="text-align: center;">
-                <ons-col>
-                    <ons-icon icon="fa-clock-o"></ons-icon>
-                    Dauer: {{durationText}} Minuten
-                </ons-col>
-            </ons-row>
+            
         </ons-page>
     </ons-template>
 
     <ons-template id="stats.html">
-        <ons-page ng-controller="statsHtml">
+        <ons-page ng-controller="statsHtml" style="text-align: center;">
             <ons-toolbar>
                 <div class="left">
                     <ons-toolbar-button ng-click="menu.toggle()">
@@ -238,12 +225,60 @@
             </ons-toolbar>
             <ons-row style="margin-top: 100px; text-align: center;">
                 <ons-col>
-                    <ons-button modifier="light" ng-click="menu.toggleMenu()">
-                        Toggle Menu
-                    </ons-button>
-                    <p style="color: #999; font-size: 13px;">Click "Toggle Menu" to close/open menu,<br> You can also swipe the page left/right.</p>
+                    Lokale Statistik:    
                 </ons-col>
             </ons-row>
+            <ons-row>
+                <ons-col>
+                    Strecke:
+                </ons-col>
+                <ons-col>
+                    {{distanceTextLocal}} Meter
+                </ons-col>
+            </ons-row>
+            <ons-row>
+                <ons-col>
+                    Dauer:
+                </ons-col>
+                <ons-col>
+                    {{durationTextLocal}} Minuten
+                </ons-col>
+            </ons-row>
+            <ons-row style="text-align: center;">
+                <ons-col>
+                    Globale Statistik:
+                </ons-col>
+            </ons-row>
+            <ons-row>
+                <ons-col>
+                    Strecke:
+                </ons-col>
+                <ons-col>
+                    {{distanceTextGlobal}} Meter
+                </ons-col>
+            </ons-row>
+            <ons-row>
+                <ons-col>
+                    Dauer:
+                </ons-col>
+                <ons-col>
+                    {{durationTextGlobal}} Minuten
+                </ons-col>
+            </ons-row>
+                <!--
+                <ons-row style="text-align: center;">
+                <ons-col>
+                    <ons-icon icon="fa-road"></ons-icon>
+                    Gefahrene Strecke: {{distanceText}} Meter
+                </ons-col>
+            </ons-row>
+            <ons-row style="text-align: center;">
+                <ons-col>
+                    <ons-icon icon="fa-clock-o"></ons-icon>
+                    Dauer: {{durationText}} Minuten
+                </ons-col>
+            </ons-row>    
+                -->
         </ons-page>
     </ons-template>
 

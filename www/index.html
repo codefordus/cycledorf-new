@@ -49,6 +49,9 @@
         });
 
         app.controller("statsHtml", function ($scope, $interval) {
+            $scope.distanceTextLocal = (Math.round(current_track_distance * 100) / 100);
+            $scope.durationTextLocal = (Math.round((current_track_duration / 60) * 100) / 100);
+
             $interval(function () {
                 $scope.distanceTextLocal = (Math.round(current_track_distance * 100) / 100);
                 $scope.durationTextLocal = (Math.round((current_track_duration / 60) * 100) / 100);
@@ -136,9 +139,11 @@
             color: #ccc;
         }
 
-            .bottom-menu-item:active {
-                background-color: rgba(255, 255, 255, 0.1);
-            }
+        .bottom-menu-item:active {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+
     </style>
 
 </head>
@@ -223,47 +228,15 @@
                 </div>
                 <div class="center">Statistiken</div>
             </ons-toolbar>
-            <ons-row style="margin-top: 100px; text-align: center;">
-                <ons-col>
-                    Lokale Statistik:    
-                </ons-col>
-            </ons-row>
-            <ons-row>
-                <ons-col>
-                    Strecke:
-                </ons-col>
-                <ons-col>
-                    {{distanceTextLocal}} Meter
-                </ons-col>
-            </ons-row>
-            <ons-row>
-                <ons-col>
-                    Dauer:
-                </ons-col>
-                <ons-col>
-                    {{durationTextLocal}} Minuten
-                </ons-col>
-            </ons-row>
-            <ons-row style="text-align: center;">
-                <ons-col>
-                    Globale Statistik:
-                </ons-col>
-            </ons-row>
-            <ons-row>
-                <ons-col>
-                    Strecke:
-                </ons-col>
-                <ons-col>
-                    {{distanceTextGlobal}} Meter
-                </ons-col>
-            </ons-row>
-            <ons-row>
-                <ons-col>
-                    Dauer:
-                </ons-col>
-                <ons-col>
-                    {{durationTextGlobal}} Minuten
-                </ons-col>
+            <ons-row style="margin-top: 100px; align">
+                <dl>
+                    <dt>Lokale Statistik:</dt>
+                        <dd>Strecke: {{distanceTextLocal}} Meter</dd>
+                        <dd>Dauer: {{durationTextLocal}} Minuten</dd>
+                    <dt>Globale Statistik:</dt>
+                        <dd>Strecke: {{distanceTextGlobal}} Meter</dd>
+                        <dd>Dauer: {{durationTextGlobal}} Minuten</dd>
+                </dl>
             </ons-row>
                 <!--
                 <ons-row style="text-align: center;">

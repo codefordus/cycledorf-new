@@ -1,0 +1,17 @@
+C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\windows\debug\x64\win8.1\resources.pri
+C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\windows\debug\x64\win8.1\AppxManifest.xml
+C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\windows\debug\x64\win8.1\CordovaApp.Windows.build.appxrecipe
+C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\windows\bld\priconfig.xml
+C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\windows\bld\priconfig.xml.intermediate
+C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\windows\bld\layout.resfiles
+C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\windows\bld\layout.resfiles.intermediate
+C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\windows\bld\resources.resfiles
+C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\windows\bld\resources.resfiles.intermediate
+C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\windows\bld\pri.resfiles
+C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\windows\bld\pri.resfiles.intermediate
+C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\windows\bld\qualifiers.txt
+C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\windows\bld\qualifiers.txt.intermediate
+C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\windows\bld\MultipleQualifiersPerDimensionFound.txt
+C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\windows\bld\ProjectArchitectures.txt
+C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\windows\bld\package.map.txt
+C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\windows\bld\_pkginfo.txt

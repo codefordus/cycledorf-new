@@ -6,13 +6,13 @@
     <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
     <TargetOsVersion>6.3</TargetOsVersion>
     <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
-    <SolutionConfiguration>debug|arm</SolutionConfiguration>
-    <PackageArchitecture>arm</PackageArchitecture>
+    <SolutionConfiguration>debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>25bd0df0-0415-11e6-9454-1594caf56cac</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\phone\bld\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\phone\debug\arm\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\phone\debug\x86\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
@@ -344,7 +344,7 @@
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\config.xml">
       <PackagePath>config.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\phone\debug\arm\resources.pri">
+    <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\build\phone\debug\x86\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

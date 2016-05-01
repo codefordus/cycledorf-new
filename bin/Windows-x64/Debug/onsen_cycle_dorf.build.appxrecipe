@@ -121,6 +121,9 @@
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js">
       <PackagePath>www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\scripts\angular-leaflet-directive.js">
+      <PackagePath>www\scripts\angular-leaflet-directive.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\publicplan\Documents\onsen_cycle_dorf\platforms\windows\www\scripts\firebase-debug.js">
       <PackagePath>www\scripts\firebase-debug.js</PackagePath>
     </AppxPackagedFile>

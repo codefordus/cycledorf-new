@@ -7,8 +7,8 @@
     <DebuggerFlavor>PhoneDevice</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Windows Phone (Universal)'">
-    <DebuggerFlavor>PhoneDevice81</DebuggerFlavor>
-    <WindowsMobileEmulatorID>9E663E22-CF9E-4F8A-AAC9-DC758E55304E;Mobile Emulator 10.0.10586.0 WXGA 4.5 inch 1GB</WindowsMobileEmulatorID>
+    <DebuggerFlavor>WindowsMobileEmulator</DebuggerFlavor>
+    <WindowsMobileEmulatorID>F554226E-1E47-460D-B76A-338418AD356B;Mobile Emulator 10.0.10586.0 720p 5 inch 1GB</WindowsMobileEmulatorID>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Windows-x64'">
     <DebuggerFlavor>WindowsLocal</DebuggerFlavor>
